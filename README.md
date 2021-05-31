@@ -1,3 +1,3 @@
-# Modulo6.Spring
+# Spring
 
 Se realizaran aqui las actividades propuestas con Spring
