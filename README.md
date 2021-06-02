@@ -1,3 +1,6 @@
-# Spring
+# Spring && Futuros aprendizajes
 
-Se realizaran aqui las actividades propuestas con Spring
+#### ¿Que te trae por aqui? 
+Las nuevas actividades se llevaran a cabo en la rama asignada en este [repositorio]
+
+[repositorio]: https://github.com/extanantone/meli_bootcamp_w8/tree/main
