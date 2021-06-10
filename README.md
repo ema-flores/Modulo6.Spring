@@ -29,16 +29,12 @@ Controlador posteos:
 
 
     POST -> /products/newpost
-
-
+    
     GET -> /products/followed/{userId}/list
-
 
     POST -> /products/newpromopost
 
-
     GET -> /products/{userId}/countPromo/
-
 
     GET -> /products/{userId}/list/
 
@@ -55,7 +51,16 @@ Y Finalmente los repositorios:
     PostRepository
     PermissionRepository
     
-Cabe destacar que como eleccion de diseñño se establecio que todos son usuarios dentro del sistema, pero cada uno tiene un o unos roles
+
+
+# Diagrama UML de clases principales
+
+A continuacion se mostraran las principales entidades de este diseño
+
+![alt text1](https://i.imgur.com/OUUb816.jpg)
+
+
+Cabe destacar que como eleccion de diseño se establecio que todos son usuarios dentro del sistema, pero cada uno tiene un o unos roles
 Los roles establecidos son: Comprador (Buyer) y Vendedor(Seller)
 En el repositorio de usuarios se crearon 2 compradores, y un vendedor
 Un vendedor por defecto puede ser comprador (se le asigna ese rol) 
@@ -63,19 +68,13 @@ Un comprador puede ser vendedor si publica algo
 Esto llevo a establecer un servicio de permisos para establecer que solo se puede seguir a usuarios que contengan el perfil de vendedor
 
 
-# Diagrama de clases principales
+# Probar la API Rest
 
-![imagen1](https://imgur.com/a/B2cM3hR)
+Se sugieren descargar un programa como Postman para probar los endpoints
+[Esta coleccion] dispone de los diferentes url para probar el funcionamiento
 
+[Esta coleccion]: https://www.getpostman.com/collections/3ca6aeda4597e5957409
 
-----
-- [Clase 1]
-- [Clase 2]
-- [Clase 3]
-
-[Clase 1]: https://github.com/extanantone/meli_bootcamp_w8/tree/ema-flores/Java/Clase1
-[Clase 2]: https://github.com/extanantone/meli_bootcamp_w8/tree/ema-flores/Java/Clase2
-[Clase 3]: https://github.com/extanantone/meli_bootcamp_w8/tree/ema-flores/Java/Clase3
 
 ----
 Mi Github: [ema-flores] <br>
